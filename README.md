@@ -12,7 +12,7 @@ Win11 WSL2、Docker jupyterLib（基于nvidia/cuda:12.3.2-cudnn9-runtime-ubuntu2
 import os
 
 os.environ['OPENAI_API_KEY'] = 'sk-xxx' # OpenAI 或第三方代理 KEY
-os.environ['OPENAI_API_BASE'] = 'https://api.openai.com/v1' # OpenAI 或 第三方代理
+os.environ['OPENAI_BASE_URL'] = 'https://api.openai.com/v1' # OpenAI 或 第三方代理
 os.environ['AZURE_SPEECH_KEY'] = '' 
 os.environ['AZURE_SPEECH_REGION'] = ''
 os.environ['DID_API_KEY'] = ''
